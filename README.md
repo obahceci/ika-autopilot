@@ -10,3 +10,5 @@ Simülasyon sistemimiz ARDUPILOT SITL - ROS2 - GAZEBO üçlüsünden oluşmaktad
 
 **3 - GAZEBO (HARMONIC) KURULUM**
 <br/>https://gazebosim.org/docs/harmonic/install/ bağlantısını takip et.  https://gazebosim.org/docs/harmonic/install_ubuntu/ bağlantısından kurulum yönergelerini izle
+
+Gazebo kurulumundan sonra Ardupilot ve gazebo arasındaki eklentinin kurulması gerekmektedir.  "**ardupilot_gazebo**" dalına geçin
