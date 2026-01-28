@@ -1,4 +1,4 @@
-#ARDUPİLOT VE GAZEBO EKLENTİSİNİ KURULUMU :
+# ARDUPİLOT VE GAZEBO EKLENTİSİNİ KURULUMU :
 
 1- Gerekli bağımlılıkların kurulumu
 
@@ -26,7 +26,7 @@
 
 
 
---GAZEBONUN EKLENTIYLE BİRLİKTE ÇALIŞTIRILMASI :
+# GAZEBONUN EKLENTIYLE BİRLİKTE ÇALIŞTIRILMASI :
 
 1-  Ortam değişkenlerini tanıtmak (bu kod ~/.bashrc dosyasının içine yazılırsa kalıcı olur)
 
@@ -35,7 +35,7 @@ $ export GZ_SIM_SYSTEM_PLUGIN_PATH=$HOME/ardupilot_gazebo/build:$GZ_SIM_SYSTEM_P
 
 
 
---ÖNEMLİ NOTLAR : 
+# ÖNEMLİ NOTLAR : 
 
 "~/ardupilot_gazebo/models/teknofest_rover/"  adresinde aracımızın model dosyaları bulunmaktadır
 
