@@ -47,6 +47,7 @@ https://github.com/ArduPilot/ardupilot_gazebo/
 
 
 # ÖNEMLİ NOTLAR : 
+Burada bulunan klasör içindeki dosyalar ardupilot_gazebo klasöründe aşağıda belirtilen adreslere yerleştirilmelidir.
 
 1- **~/ardupilot_gazebo/models/teknofest_rover/** <br/>
 #*Bu adreste aracımızın model dosyaları bulunmaktadır*
