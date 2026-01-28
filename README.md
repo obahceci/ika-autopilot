@@ -1,4 +1,4 @@
---ARDUPİLOT VE GAZEBO EKLENTİSİNİ KURULUMU :
+#ARDUPİLOT VE GAZEBO EKLENTİSİNİ KURULUMU :
 
 1- Gerekli bağımlılıkların kurulumu
 
