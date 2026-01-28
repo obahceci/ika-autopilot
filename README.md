@@ -10,6 +10,7 @@
 **2- Ardupilot gazebo eklentisi indirmek**
 
 `git clone https://github.com/ArduPilot/ardupilot_gazebo`
+
 `cd ardupilot_gazebo`
 
 
