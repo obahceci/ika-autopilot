@@ -28,7 +28,7 @@
 
 **1-  Ortam değişkenlerini tanıtmak (bu kod ~/.bashrc dosyasının içine yazılırsa kalıcı olur)**
 
-#Eğer gazebo güncel olan dünyayı açamıyorsa öncekşi gazebo fonksiyonlarını kapat.
+#*Eğer gazebo güncel olan dünyayı açamıyorsa öncekşi gazebo fonksiyonlarını kapat.*
 
 `pkill -9 gz`
 
@@ -38,7 +38,7 @@
 
 `export GZ_SIM_RESOURCE_PATH=$GZ_SIM_RESOURCE_PATH:$HOME/ardupilot_gazebo/models:$HOME/ardupilot_gazebo/worlds`
 
-`gz sim -v4 teknofest_final.sdf`    #aktif model dünyasını çalıştırır
+`gz sim -v4 teknofest_final.sdf`    #*aktif model dünyasını çalıştırır*
 
 
 
