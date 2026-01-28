@@ -2,9 +2,9 @@
 
 **1- Gerekli bağımlılıkların kurulumu**
 
-  $ sudo apt-get update
+`sudo apt-get update`
 
-  $ sudo apt-get install python3-gz-sim8 
+`sudo apt-get install python3-gz-sim8` 
 
 
 **2- Ardupilot gazebo eklentisi indirmek**
@@ -31,6 +31,7 @@
 #Eğer gazebo güncel olan dünyayı açamıyorsa öncekşi gazebo fonksiyonlarını kapat.
 
 `pkill -9 gz`
+
 `pkill -9 ruby`
 
 #EKLENTİ YOLUNU TANIT 
