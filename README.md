@@ -1,4 +1,4 @@
-ARDUPİLOT VE GAZEBO EKLENTİSİNİ KURMAK İÇİN:
+--ARDUPİLOT VE GAZEBO EKLENTİSİNİ KURULUMU :
 
 1- Gerekli bağımlılıkların kurulumu
 
@@ -24,7 +24,7 @@ $ make -j4
 
 
 
-ÇALIŞTIRMAK İÇİN :
+--GAZEBONUN EKLENTIYLE BİRLİKTE ÇALIŞTIRILMASI :
 
 1-  Ortam değişkenlerini tanıtmak (bu kod ~/.bashrc dosyasının içine yazılırsa kalıcı olur)
 
