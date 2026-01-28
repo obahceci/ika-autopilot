@@ -3,12 +3,14 @@
 1- Gerekli bağımlılıkların kurulumu
 
 $ sudo apt-get update
+
 $ sudo apt-get install python3-gz-sim8 
 
 
 2- Ardupilot gazebo eklentisi indirmek
 
 $ git clone https://github.com/ArduPilot/ardupilot_gazebo
+
 $ cd ardupilot_gazebo
 
 
