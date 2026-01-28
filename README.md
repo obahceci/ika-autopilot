@@ -1,4 +1,4 @@
-# ARDUPİLOT VE GAZEBO EKLENTİSİNİ KURULUMU :
+# ARDUPİLOT VE GAZEBO EKLENTİSİNİ KURULUMU 
 
 # 1- Gerekli bağımlılıkların kurulumu
 
@@ -26,11 +26,20 @@
 
 
 
-# GAZEBONUN EKLENTIYLE BİRLİKTE ÇALIŞTIRILMASI :
+# GAZEBONUN EKLENTIYLE BİRLİKTE ÇALIŞTIRILMASI 
 
 # 1-  Ortam değişkenlerini tanıtmak (bu kod ~/.bashrc dosyasının içine yazılırsa kalıcı olur)
 
-$ export GZ_SIM_SYSTEM_PLUGIN_PATH=$HOME/ardupilot_gazebo/build:$GZ_SIM_SYSTEM_PLUGIN_PATH
+#Eğer gazebo güncel olan dünyayı açamıyorsa öncekşi gazebo fonksiyonlarını kapat.
+
+$ pkill -9 gz
+$ pkill -9 ruby
+
+#EKLENTİ YOLUNU TANIT (BU KOMUTU ~/.bashrc dosyasına eklersen kalıcı olarak kaydetmiş oluruz)
+
+$ export GZ_SIM_RESOURCE_PATH=$GZ_SIM_RESOURCE_PATH:$HOME/ardupilot_gazebo/models:$HOME/ardupilot_gazebo/worlds
+
+$ gz sim -v4 teknofest_final.sdf    #aktif model dünyasını çalıştırır
 
 
 
